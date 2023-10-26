@@ -15,6 +15,7 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 }
 h1 {
     text-align: center;
@@ -26,12 +27,14 @@ h1 {
 }
 #ItemSalvo {
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
     list-style: none;  
 }
 li {
     border-bottom: 1px solid black;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    width: 100%;
 }
 input {
     padding: 0.2rem 0.5rem;
@@ -42,19 +45,28 @@ input {
 button {
     margin-left: 0.5rem;
     padding: 0.2rem 0.5rem; 
-    background-color: rgb(48, 177, 236);
+    background-color: gray;
     border-style: none;
+    border-radius: 5px;
 }
 .editar {
-    background-color: ;
-    
+    background-color: rgb(101, 189, 134);
+    position: absolute;
+    left: 60%;
+  
 }
 .Excluir {
-    background-color: ;
+    background-color: rgb(224, 137, 137);
+    position: absolute;
+    left: 65%;
 }
 .Concluido {
-    background-color: ;
+    background-color: rgb(122, 183, 211);
+    position: absolute;
+    left: 70%;
 }
 .Desmarcar {
-
+    background-color: rgb(122, 183, 211);
+    position: absolute;
+    left: 70%;
 }
