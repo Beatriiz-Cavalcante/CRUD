@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+.container {
+    background-color: rgb(241, 200, 146);
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    padding-bottom: 1.5rem; 
+}
+.form {
+    padding-left: 1.5rem;
+    width: 100%;  
+}
+#ItemSalvo {
+    padding-left: 1.5rem;
+    list-style: none;  
+}
+li {
+    border-bottom: 1px solid black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+input {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5%;
+    width: 60%;
+}
+button {
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.5rem; 
+    background-color: rgb(48, 177, 236);
+    border-style: none;
+}
+.editar {
+    background-color: ;
+    
+}
+.Excluir {
+    background-color: ;
+}
+.Concluido {
+    background-color: ;
+}
+.Desmarcar {
+
+}
