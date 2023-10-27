@@ -1,6 +1,6 @@
 function addItem() {
    
- 
+
     const NovoItem = document.getElementById("item");
     const ItemSemEspacos = NovoItem.value.trim();
 
@@ -21,7 +21,7 @@ function addItem() {
 
 
 function SolicitaApagaItem(button) {
-    if (confirm("Tem certeza de que deseja excluir esta tarefa?")) {
+    if (confirm("Tem certeza de que deseja excluir este item?")) {
         ApagaItem(button);
     }
 }
@@ -33,7 +33,7 @@ function ApagaItem(button) {
 
 function EditarItem(button) {
     const span = button.parentElement.querySelector("span");
-    const ItemAtualizado = prompt("Edite a tarefa:", span.textContent);
+    const ItemAtualizado = prompt("Edite o item:", span.textContent);
     if (ItemAtualizado !== null) {
         span.textContent = ItemAtualizado;
     }
