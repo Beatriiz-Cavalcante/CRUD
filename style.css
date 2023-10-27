@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
-    background-color: antiquewhite;
+    background-color: #413d75;
 }
+
 .container {
-    background-color: rgb(241, 200, 146);
+    background-color: rgb(255, 255, 255);
     width: 60%;
     margin-top: 2rem;
     margin-left: 20%;
@@ -17,56 +20,100 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
+
 h1 {
     text-align: center;
     padding-bottom: 1.5rem; 
+    color: #6761b9;
 }
+
 .form {
     padding-left: 1.5rem;
-    width: 100%;  
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
 }
+
 #ItemSalvo {
+    padding-top: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     list-style: none;  
 }
+
 li {
-    border-bottom: 1px solid black;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #6761b9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 100%;
 }
+
+li span {
+    color: #6761b9;
+    font-weight: bold;
+}
+
 input {
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 1rem;
     margin-bottom: 0.5rem;
-    border-radius: 5%;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #6761b9a4;
+    color: #fff;
     width: 60%;
 }
+
+input::placeholder {
+    color: #ffffffab;
+    font-size: 16px;
+}
+
+button.adicionar {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem; 
+    height: 40px;
+    width: 100px;
+    background-color: gray;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #413d75d2;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
 button {
     margin-left: 0.5rem;
     padding: 0.2rem 0.5rem; 
     background-color: gray;
+    color: #413d75;
     border-style: none;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 .editar {
-    background-color: rgb(101, 189, 134);
+    background-color: #f3d841;
     position: absolute;
     left: 60%;
-  
 }
+
 .Excluir {
     background-color: rgb(224, 137, 137);
     position: absolute;
     left: 65%;
 }
+
 .Concluido {
-    background-color: rgb(122, 183, 211);
+    background-color: rgb(122, 211, 181);
     position: absolute;
     left: 70%;
 }
+
 .Desmarcar {
-    background-color: rgb(122, 183, 211);
+    background-color: #bebebe;
     position: absolute;
     left: 70%;
 }
